@@ -18,6 +18,8 @@ makimaki参上
 takuya 変更
 gitはやっぱり難しいね。
 
+　どうしよう
+
 Master branch
 
 Yunブランチその２
@@ -28,3 +30,4 @@ yun
 Masterブランチその２
 Yunブランチその２
 Second chang
+
