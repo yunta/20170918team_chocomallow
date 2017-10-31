@@ -2,11 +2,11 @@
 
     session_start();
 
-    if (empty($_POST)) {
-      echo 'データを入力してください。';
-      header('Location: index.php');
-    exit();
-    }
+    // if (empty($_POST)) {
+    //   echo 'データを入力してください。';
+    //   header('Location: index.php');
+    // exit();
+    // }
 
  
 
@@ -51,7 +51,7 @@
     留学期間:<?php echo $_SESSION['user_info']['term']; ?><br>
     コース : <?php echo $_SESSION['user_info']['course']; ?> <br>
     自己紹介 :<?php echo $_SESSION['user_info']['introduction']; ?><br>
-    パスワード : ●●●●●●●●<br>
+    パスワード :<?php echo $_SESSION['user_info']['password']; ?> <br>
     <img src="../profile_image/<?php echo $_SESSION['user_info']['profile_image']; ?>" width="150">
 
   </div>
