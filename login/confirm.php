@@ -13,17 +13,10 @@
   $name = htmlspecialchars($_POST['name']);
   $nickname = htmlspecialchars($_POST['nickname']);
   $email = htmlspecialchars($_POST['email']);
-  $facebook = htmlspecialchars($_POST['facebook']);
-  $twitter = htmlspecialchars($_POST['twitter']);
-  $instagram = htmlspecialchars($_POST['instagram']);
-  $birthday = htmlspecialchars($_POST['birthday']);
-  $hobby = htmlspecialchars($_POST['hobby']);
   $admission = htmlspecialchars($_POST['admission']);
-  $term = htmlspecialchars($_POST['term']);
+  $graduation = htmlspecialchars($_POST['graduation']);
   $course = htmlspecialchars($_POST['course']);
-  $introduction = htmlspecialchars($_POST['introduction']);
   $password = htmlspecialchars($_POST['password']);
-  $profile_image= htmlspecialchars($_POST['profile_image']);
 
 
 
@@ -42,17 +35,11 @@
     ユーザー名 : <?php echo $_SESSION['user_info']['username']; ?> <br>
     ニックネーム :<?php echo $_SESSION['user_info']['nickname']; ?><br>
     メールアドレス : <?php echo $_SESSION['user_info']['email']; ?> <br>
-    Facebook :<?php echo $_SESSION['user_info']['facebook']; ?><br>
-    twitter : <?php echo $_SESSION['user_info']['twitter']; ?> <br>
-    instagram :<?php echo $_SESSION['user_info']['instagram']; ?><br>
-    誕生日 : <?php echo $_SESSION['user_info']['birthday']; ?> <br>
-    趣味 :<?php echo $_SESSION['user_info']['hobby']; ?><br>
     入学日 : <?php echo $_SESSION['user_info']['admission']; ?> <br>
-    留学期間:<?php echo $_SESSION['user_info']['term']; ?><br>
+    卒業日:<?php echo $_SESSION['user_info']['graduation']; ?><br>
     コース : <?php echo $_SESSION['user_info']['course']; ?> <br>
-    自己紹介 :<?php echo $_SESSION['user_info']['introduction']; ?><br>
     パスワード :<?php echo $_SESSION['user_info']['password']; ?> <br>
-    <img src="../profile_image/<?php echo $_SESSION['user_info']['profile_image']; ?>" width="150">
+
 
   </div>
   <br>
