@@ -51,7 +51,7 @@
 <body>
 
 <!-- 新規登録 -->
-<form method="POST" action="" enctype="multipart/form-data">
+<form method="POST" action="new.php" enctype="multipart/form-data">
 	<label >新規登録</label><br>
 	<input type="submit" value="登録する">
 	<br><br></form>
